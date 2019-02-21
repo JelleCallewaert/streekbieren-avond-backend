@@ -21,13 +21,25 @@ namespace streekbieren_avond_backend.Controllers
         private static List<Brouwerij> brouwerijen = new List<Brouwerij>()
         {
             new Brouwerij() { Naam = "Brouwerij Van der ginste", Locatie = "Bellegem", DatumOpgericht = "0001-01-01T00:00:00" },
-            new Brouwerij() { Naam = "Duvel Moortgat", Locatie = "Puurs", DatumOpgericht = "0001-01-01T00:00:00" },
-            new Brouwerij() { Naam = "Brouwerij uuuuh", Locatie = "Het land van geen idee", DatumOpgericht = "0001-01-01T00:00:00" },
-            new Brouwerij() { Naam = "Brouwerij van Orval", Locatie = "Villers-devant-orval", DatumOpgericht = "0001-01-01T00:00:00" },
-            new Brouwerij() { Naam = "Brouwerij De Halve Maan", Locatie = "Brugge", DatumOpgericht = "0001-01-01T00:00:00" },
-            new Brouwerij() { Naam = "Brouwerij Van Steenberghe", Locatie = "Ertvelde", DatumOpgericht = "0001-01-01T00:00:00" },
+            new Brouwerij() { Naam = "Duvel Moortgat", Locatie = "Puurs", DatumOpgericht = "0002-01-01T00:00:00" },
+            new Brouwerij() { Naam = "Brouwerij uuuuh", Locatie = "Het land van geen idee", DatumOpgericht = "0003-01-01T00:00:00" },
+            new Brouwerij() { Naam = "Brouwerij van Orval", Locatie = "Villers-devant-orval", DatumOpgericht = "0004-01-01T00:00:00" },
+            new Brouwerij() { Naam = "Brouwerij De Halve Maan", Locatie = "Brugge", DatumOpgericht = "0005-01-01T00:00:00" },
+            new Brouwerij() { Naam = "Brouwerij Van Steenberghe", Locatie = "Ertvelde", DatumOpgericht = "0006-01-01T00:00:00" },
 
         };
+
+        [HttpGet("brouwerijen")]
+        public IEnumerable<Brouwerij> GetBrouwerijen()
+        {
+            return brouwerijen;
+        }
+
+        [HttpGet("brouwerijen/{naam}")]
+        public Brouwerij GetBrouwerij(string naam)
+        {
+            return brouwerijen.FirstOrDefault(b => b.Naam == naam);
+        }
         
         [HttpGet]
         public IEnumerable<Streekbier> GetAll()
