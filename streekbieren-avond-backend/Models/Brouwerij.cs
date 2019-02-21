@@ -9,6 +9,6 @@ namespace streekbieren_avond_backend.Models
     {
         public string Naam { get; set; }
         public string Locatie { get; set; }
-        public DateTime datumOpgericht { get; set; }
+        public DateTime DatumOpgericht { get; set; }
     }
 }
