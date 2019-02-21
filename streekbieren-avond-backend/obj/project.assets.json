@@ -12947,11 +12947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DotNet\\streekbieren-avond-backend\\streekbieren-avond-backend.csproj",
+      "projectUniqueName": "C:\\DotNet\\streekbieren-avond-backend\\streekbieren-avond-backend\\streekbieren-avond-backend.csproj",
       "projectName": "streekbieren-avond-backend",
-      "projectPath": "C:\\DotNet\\streekbieren-avond-backend\\streekbieren-avond-backend.csproj",
+      "projectPath": "C:\\DotNet\\streekbieren-avond-backend\\streekbieren-avond-backend\\streekbieren-avond-backend.csproj",
       "packagesPath": "C:\\Users\\JCLBN84\\.nuget\\packages\\",
-      "outputPath": "C:\\DotNet\\streekbieren-avond-backend\\obj\\",
+      "outputPath": "C:\\DotNet\\streekbieren-avond-backend\\streekbieren-avond-backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
