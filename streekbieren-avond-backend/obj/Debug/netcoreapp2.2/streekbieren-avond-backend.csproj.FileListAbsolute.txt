@@ -12,3 +12,17 @@ C:\DotNet\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-
 C:\DotNet\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.pdb
 C:\DotNet\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.dll
 C:\DotNet\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.pdb
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.csprojAssemblyReference.cache
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.csproj.CoreCompileInputs.cache
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.RazorAssemblyInfo.cache
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.RazorAssemblyInfo.cs
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.AssemblyInfoInputs.cache
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.AssemblyInfo.cs
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.dll
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.pdb
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.deps.json
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.runtimeconfig.json
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.runtimeconfig.dev.json
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.dll
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.pdb
+C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.RazorTargetAssemblyInfo.cache
