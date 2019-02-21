@@ -13,9 +13,19 @@ namespace streekbieren_avond_backend.Controllers
         private List<Streekbier> bieren = new List<Streekbier>()
         {
             new Streekbier() { Naam = "Tongerloo", Percentage = 7.5d
-                , Brouwerij = brouwerijen[0] },
+                , Brouwerij = brouwerijen[7] },
             new Streekbier() { Naam = "Westmalle", Percentage = 8.2d
-                , Brouwerij = brouwerijen[2] }
+                , Brouwerij = brouwerijen[6] },
+            new Streekbier() { Naam = "Omer", Percentage = 6.8d
+                , Brouwerij = brouwerijen[0] },
+            new Streekbier() { Naam = "Duvel", Percentage = 6.2d
+                , Brouwerij = brouwerijen[1] },
+            new Streekbier() { Naam = "No Idea", Percentage = 12.2d
+                , Brouwerij = brouwerijen[2] },
+            new Streekbier() { Naam = "Brugse Zot", Percentage = 5.9d
+                , Brouwerij = brouwerijen[4] },
+            new Streekbier() { Naam = "Gentse Tripel", Percentage = 7.2d
+                , Brouwerij = brouwerijen[5] },
         };
 
         private static List<Brouwerij> brouwerijen = new List<Brouwerij>()
@@ -26,7 +36,8 @@ namespace streekbieren_avond_backend.Controllers
             new Brouwerij() { Naam = "Brouwerij van Orval", Locatie = "Villers-devant-orval", DatumOpgericht = "0004-01-01T00:00:00" },
             new Brouwerij() { Naam = "Brouwerij De Halve Maan", Locatie = "Brugge", DatumOpgericht = "0005-01-01T00:00:00" },
             new Brouwerij() { Naam = "Brouwerij Van Steenberghe", Locatie = "Ertvelde", DatumOpgericht = "0006-01-01T00:00:00" },
-
+            new Brouwerij() { Naam = "Abdij Van Westmalle", Locatie = "Westmalle", DatumOpgericht = "1906-01-01T00:00:00" },
+            new Brouwerij() { Naam = "Abdij Van Tongerloo", Locatie = "Tongerloo", DatumOpgericht = "1922-01-01T00:00:00" },
         };
 
         [HttpGet("brouwerijen")]
