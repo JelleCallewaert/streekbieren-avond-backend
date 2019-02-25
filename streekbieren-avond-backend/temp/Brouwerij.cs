@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace streekbieren_avond_backend.Models
+namespace streekbieren_avond_backend.temp
 {
     public class Brouwerij
     {

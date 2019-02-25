@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using streekbieren_avond_backend.Models;
+using static streekbieren_avond_backend.Models.Streekbier;
 
 namespace streekbieren_avond_backend.Controllers
 {
@@ -28,26 +29,26 @@ namespace streekbieren_avond_backend.Controllers
                 , Brouwerij = brouwerijen[5] },
         };
 
-        private static List<Brouwerij> brouwerijen = new List<Brouwerij>()
+        private static List<BrouwerijClass> brouwerijen = new List<BrouwerijClass>()
         {
-            new Brouwerij() { Naam = "Brouwerij Van der ginste", Locatie = "Bellegem", DatumOpgericht = "0001-01-01T00:00:00" },
-            new Brouwerij() { Naam = "Duvel Moortgat", Locatie = "Puurs", DatumOpgericht = "0002-01-01T00:00:00" },
-            new Brouwerij() { Naam = "Brouwerij uuuuh", Locatie = "Het land van geen idee", DatumOpgericht = "0003-01-01T00:00:00" },
-            new Brouwerij() { Naam = "Brouwerij van Orval", Locatie = "Villers-devant-orval", DatumOpgericht = "0004-01-01T00:00:00" },
-            new Brouwerij() { Naam = "Brouwerij De Halve Maan", Locatie = "Brugge", DatumOpgericht = "0005-01-01T00:00:00" },
-            new Brouwerij() { Naam = "Brouwerij Van Steenberghe", Locatie = "Ertvelde", DatumOpgericht = "0006-01-01T00:00:00" },
-            new Brouwerij() { Naam = "Abdij Van Westmalle", Locatie = "Westmalle", DatumOpgericht = "1906-01-01T00:00:00" },
-            new Brouwerij() { Naam = "Abdij Van Tongerloo", Locatie = "Tongerloo", DatumOpgericht = "1922-01-01T00:00:00" },
+            new BrouwerijClass() { Naam = "Brouwerij Van der ginste", Locatie = "Bellegem", DatumOpgericht = "0001-01-01T00:00:00" },
+            new BrouwerijClass() { Naam = "Duvel Moortgat", Locatie = "Puurs", DatumOpgericht = "0002-01-01T00:00:00" },
+            new BrouwerijClass() { Naam = "Brouwerij uuuuh", Locatie = "Het land van geen idee", DatumOpgericht = "0003-01-01T00:00:00" },
+            new BrouwerijClass() { Naam = "Brouwerij van Orval", Locatie = "Villers-devant-orval", DatumOpgericht = "0004-01-01T00:00:00" },
+            new BrouwerijClass() { Naam = "Brouwerij De Halve Maan", Locatie = "Brugge", DatumOpgericht = "0005-01-01T00:00:00" },
+            new BrouwerijClass() { Naam = "Brouwerij Van Steenberghe", Locatie = "Ertvelde", DatumOpgericht = "0006-01-01T00:00:00" },
+            new BrouwerijClass() { Naam = "Abdij Van Westmalle", Locatie = "Westmalle", DatumOpgericht = "1906-01-01T00:00:00" },
+            new BrouwerijClass() { Naam = "Abdij Van Tongerloo", Locatie = "Tongerloo", DatumOpgericht = "1922-01-01T00:00:00" },
         };
 
         [HttpGet("brouwerijen")]
-        public IEnumerable<Brouwerij> GetBrouwerijen()
+        public IEnumerable<BrouwerijClass> GetBrouwerijen()
         {
             return brouwerijen;
         }
 
         [HttpGet("brouwerijen/{naam}")]
-        public Brouwerij GetBrouwerij(string naam)
+        public BrouwerijClass GetBrouwerij(string naam)
         {
             return brouwerijen.FirstOrDefault(b => b.Naam == naam);
         }
@@ -78,21 +79,25 @@ namespace streekbieren_avond_backend.Controllers
         public Streekbier Update(string naam, [FromBody]Streekbier streekbier)
         {
             // PUT-call voor 1 streekbier te wijzigen (op basis van naam)
-            var index = bieren.FindIndex(bier => bier.Naam == naam);
-            if (index != -1)
+            var indexBier = bieren.FindIndex(bier => bier.Naam == naam);
+            //var indexBrouwerij = brouwerijen.FindIndex(brouwer => brouwer.Naam == streekbier.Brouwerij.Naam);
+            //streekbier.Brouwerij = brouwerijen[indexBrouwerij];
+            if (indexBier != -1)
             {
-                bieren[index] = streekbier;
-                return bieren.FirstOrDefault(bier => bier == streekbier);
+                bieren[indexBier] = streekbier;
+                return bieren.FirstOrDefault(bier => bier.Naam == streekbier.Naam);
             }
             return null;
 
         }
 
         [HttpDelete("{naam}")]
-        public void Delete(string naam)
+        public Streekbier Delete(string naam)
         {
             // DELETE-call om 1 streekbier te verwijderen (op basis van naam)
-            bieren.Remove(bieren.FirstOrDefault(bier => bier.Naam == naam));
+            var teVerwijderen = bieren.FirstOrDefault(bier => bier.Naam == naam);
+            bieren.Remove(teVerwijderen);
+            return teVerwijderen;
         }
     }
 }
