@@ -26,3 +26,17 @@ C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcor
 C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.dll
 C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.pdb
 C:\DotNet\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.RazorTargetAssemblyInfo.cache
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.deps.json
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.runtimeconfig.json
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.runtimeconfig.dev.json
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.dll
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\bin\Debug\netcoreapp2.2\streekbieren-avond-backend.pdb
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.csprojAssemblyReference.cache
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.csproj.CoreCompileInputs.cache
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.RazorAssemblyInfo.cache
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.RazorAssemblyInfo.cs
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.AssemblyInfoInputs.cache
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.AssemblyInfo.cs
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.RazorTargetAssemblyInfo.cache
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.dll
+C:\Stage\RealDolmen_Stage\Jelle\streekbieren-avond-backend\streekbieren-avond-backend\obj\Debug\netcoreapp2.2\streekbieren-avond-backend.pdb

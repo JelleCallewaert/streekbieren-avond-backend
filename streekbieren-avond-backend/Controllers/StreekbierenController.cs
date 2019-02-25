@@ -85,7 +85,7 @@ namespace streekbieren_avond_backend.Controllers
             if (indexBier != -1)
             {
                 bieren[indexBier] = streekbier;
-                return bieren.FirstOrDefault(bier => bier.Naam == streekbier.Naam);
+                return bieren[indexBier];
             }
             return null;
 
